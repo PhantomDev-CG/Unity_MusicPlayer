@@ -13,6 +13,7 @@ A lightweight, UI-independent music player for Unity with Photon multiplayer sup
 - Playlist management - dropdown for track selection, auto-advance on track end
 - Collapse/Expand - minimize or fully disable the player UI
 - Menu music fade - smoothly fade background menu music when player starts
+- Song cover image and Beat image
 ### Requirements
 - Unity 2019.4 or newer
 - Photon Classic
@@ -23,12 +24,12 @@ A lightweight, UI-independent music player for Unity with Photon multiplayer sup
 3. Add the component to any GameObject in your scene (or use Tools → Music Player → Add To Current Scene)
 4. Create Your UI **Required elements:**
 ```
-- **Buttons:** Play/Pause, Next, Prev, Add Track (optional)
-- **Texts:** Track title, Current time, Volume display
-- **Sliders:** Seek progress, Volume control
-- **Toggles:** Music on/off, Sync on/off
-- **Dropdown:** Track selection
-- **Panels:** Main panel, Collapsed state, Disabled state
+- Buttons: Play/Pause, Next, Prev, Add Track (optional)
+- Texts: Track title, Current time, Volume display
+- Sliders: Seek progress, Volume control
+- Toggles: Music on/off, Sync on/off
+- Dropdown: Track selection
+- Panels: Main panel
 ```
 5. Assign References
 6. Add Music Files
